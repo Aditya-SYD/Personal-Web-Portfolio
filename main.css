@@ -1,3 +1,40 @@
+
+@font-face {
+    font-family: 'Azonix';
+    src: url('fonts/AzonixRegular.woff2') format('woff2'),
+        url('fonts/AzonixRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Keep Calm Med';
+    src: url('fonts/KeepCalm-Medium.woff2') format('woff2'),
+        url('fonts/KeepCalm-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('fonts/Comfortaa-Regular.woff2') format('woff2'),
+        url('fonts/Comfortaa-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('BebasNeue-Regular.woff2') format('woff2'),
+        url('BebasNeue-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /*Start global*/
 *{
     margin: 0;
@@ -7,8 +44,8 @@
 
 html {
     font-size:10px;
-    font-family: 'Roboto', sans-serif;
-    color: #eee;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
  }
  
  body {
@@ -21,6 +58,7 @@ html {
  section{
      padding: 6rem 0;
  }
+ 
  a{
      text-decoration: none;
      color: #eee;
@@ -126,7 +164,7 @@ li{
 }
 
 .nav-link{
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'Akira Expanded', Arial;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -162,7 +200,7 @@ li{
 }
 
 .bar{
-    background: linear-gradient(to right, #ffe838, #fd57bf);
+    background: linear-gradient(to right, blue,black);
     width: 100%;
     height: 3px;
     border-radius: .8rem;
@@ -202,9 +240,9 @@ li{
 }
 
 .landing-text h1{
-    font-size: 20rem;
-    font-family: sans-serif;
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    font-size: 13rem;
+    font-family: Keep Calm Med;
+    background: linear-gradient(to top ,#00FFFF, #8A2BE2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -238,7 +276,7 @@ li{
 
 .about-heading h6{
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 100;
 }
 
 .profile-img{
