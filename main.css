@@ -90,7 +90,7 @@ html {
 
 .section-heading h1{
     font-size: 3.5rem;
-    color: rgba(255, 255, 255, .3);
+    color: black;
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
@@ -266,7 +266,7 @@ li{
     text-align: center;
     text-transform: uppercase;
     line-height: 0;
-    margin-bottom: 6rem;
+    margin-bottom: 9rem;
 }
 
 .about-heading h1{
@@ -294,10 +294,14 @@ li{
 .social-media i{
     font-size: 5rem;
     transition: color 650ms;
+    color:#4267b2 ;
 }
 
-.fa-facebook-square:hover{
-    color: #4267b2;
+.fa-linkedin-square:hover{
+    color: blue;
+}
+.fa-github-square:hover{
+    color: blue;
 }
 /*End about*/
 
@@ -315,7 +319,7 @@ li{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    padding: 0.5rem;
 }
 
 .skill h1{
@@ -328,7 +332,7 @@ li{
     width: 10rem;
     height: 10rem;
     border: 3px solid #ffe838;
-    background-color: #fd57bf;
+    background-color: #1E90FF;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
