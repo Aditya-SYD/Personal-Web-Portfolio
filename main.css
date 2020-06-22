@@ -299,7 +299,7 @@ li{
     color:#4267b2 ;
 }
 
-.fa-linkedin-square:hover{
+.fa-linkedin:hover{
     color: blue;
 }
 .fa-github-square:hover{
@@ -459,11 +459,11 @@ li{
     text-transform: uppercase;
     font-weight: 300;
     margin-bottom: 1rem;
-    opacity: .3;
+    opacity: .5;
 }
 
 .timeline .date{
-    border-bottom: 1px solid rgba(255,255,255,0.1);
+    border-bottom: 1px solid blue;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
     position: relative;
@@ -493,7 +493,7 @@ li{
 
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
+    box-shadow: 0 0 0 4px blueviolet;
     border-radius: 100%;
     left: -8rem;
     height: 1.5rem;
@@ -507,8 +507,12 @@ li{
     background-color: #221e3f;
 }
 
-.contact h1, h6{
+.contact h1{
     color:white;
+}
+
+.contact h6{
+    color: white;
 }
 /*End contact*/
 
